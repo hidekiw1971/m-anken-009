@@ -5,6 +5,9 @@
 ## 概要
 
 - codepus 模擬案件（mv）
+- `swiper@8`を使用
+- `cds`はダウンロードを使用。（変更してないので`cdn`でも可能）
+
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -33,15 +36,22 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0058.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- 再生を無限に繰り返すには
+- https://techacademy.jp/magazine/25592
+- Swiper の effect: fade でスライドが重なる
+- https://zenn.dev/ytk6565/articles/swiper-effect-fade
+- 3.画像がズームしながらフェードアウトで切り替わる
+- https://web-den.com/use-swiper
+- Swiper+CSS のみ！ズームアップしながらフェードインで切り替わるスライダーの実装方法
+- https://wemo.tech/2961
 
 ## 更新履歴
 
+- 2022/4/19 sp、pc 動くようになったが、３枚目が fadeout するときに一瞬小さくなる動きが気になる。
 - 2022/4/18 codepus 模擬案件（mv）作成開始
 
 ## 環境・使い方

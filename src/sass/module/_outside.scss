@@ -1,0 +1,7 @@
+@use "global" as *;
+.outside {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
