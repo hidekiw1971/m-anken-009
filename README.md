@@ -5,7 +5,7 @@
 ## 概要
 
 - codepus 模擬案件（mv）
-- `swiper@8`を使用
+- `swiper@8`を使用 -> 断念。`Swiper@4.5.0`に戻した。
 - `cds`はダウンロードを使用。（変更してないので`cdn`でも可能）
 
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
@@ -48,9 +48,12 @@
 - https://web-den.com/use-swiper
 - Swiper+CSS のみ！ズームアップしながらフェードインで切り替わるスライダーの実装方法
 - https://wemo.tech/2961
+- Swiper+CSS のみ！ズームアップしながらフェードインで切り替わるスライダーの実装方法
+- https://wemo.tech/2961
 
 ## 更新履歴
 
+- 2022/4/20 結局、前回の気になる点が解消できず。`swiper@8`を使用 -> 断念。`Swiper@4.5.0`に戻した。
 - 2022/4/19 sp、pc 動くようになったが、３枚目が fadeout するときに一瞬小さくなる動きが気になる。
 - 2022/4/18 codepus 模擬案件（mv）作成開始
 

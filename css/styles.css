@@ -173,7 +173,7 @@ select::-ms-expand {
   display: none;
 }
 
-.swiper {
+.wrap {
   padding: 16px;
 }
 
@@ -198,7 +198,6 @@ select::-ms-expand {
             transform: scale(1.15);
   }
 }
-.swiper-wrapper,
 .swiper-slide-active .slide-img,
 .swiper-slide-duplicate-active .slide-img,
 .swiper-slide-prev .slide-img {
@@ -206,7 +205,7 @@ select::-ms-expand {
           animation: zoomUp 10s linear 0s 1 normal both;
 }
 
-.slide-img {
+.slide-img img {
   display: block;
 }
 /*# sourceMappingURL=styles.css.map */

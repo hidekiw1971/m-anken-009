@@ -1,6 +1,6 @@
 @use "global" as *;
 
-.swiper {
+.wrap {
   padding: 16px;
 }
 @keyframes zoomUp {
@@ -12,13 +12,11 @@
   }
 }
 
-.swiper-wrapper,
-// .swiper,
 .swiper-slide-active .slide-img,
 .swiper-slide-duplicate-active .slide-img,
 .swiper-slide-prev .slide-img {
   animation: zoomUp 10s linear 0s 1 normal both;
 }
-.slide-img {
+.slide-img img {
   display: block;
 }

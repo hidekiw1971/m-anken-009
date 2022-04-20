@@ -1,11 +1,17 @@
 jQuery(function ($) {
   // この中であればWordpressでも「$」が使用可能になる
-  const swiper = new Swiper(".swiper", {
+  let swipeOption = {
+    loop: true,
     effect: "fade",
-    loop: false,
-    speed: 2000,
     autoplay: {
       delay: 4000,
+      disableOnInteraction: false,
     },
-  });
+    speed: 2000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  };
+  new Swiper(".swiper-container", swipeOption);
 });

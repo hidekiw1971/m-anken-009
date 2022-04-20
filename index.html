@@ -24,8 +24,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
   <!-- swiper.js css/js -->
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
 
 <body>
@@ -34,14 +34,27 @@
     <div class="mv">
       <div class="mv__inner">
         <!-- swiper s -->
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><img class="slide-img" src="https://picsum.photos/id/1041/1200/640" alt=""></div>
-            <div class="swiper-slide"><img class="slide-img" src="https://picsum.photos/id/1016/1200/640" alt=""></div>
-            <div class="swiper-slide"><img class="slide-img" src="https://picsum.photos/id/1056/1200/640" alt=""></div>
+        <div class="wrap">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/mv1@3x.png" alt="img1">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/mv2@3x.png" alt="img2">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-img">
+                  <img src="images/mv3@3x.png" alt="img3">
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- swiper e -->
+        </div> <!-- swiper e -->
       </div>
     </div>
     <!-- copy end -->
